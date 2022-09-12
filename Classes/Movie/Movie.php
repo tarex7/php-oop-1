@@ -23,8 +23,8 @@ class Movie
 
         public function getCast()
         {
-           foreach($this->cast as $cast) {
-            echo $cast . ", ";
+           foreach($this->cast as $actor) {
+            echo $actor . ", ";
            };
         }
 
